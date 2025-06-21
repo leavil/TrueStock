@@ -1,0 +1,4 @@
+.env
+venv/
+src/database/data/tickers/tickers.zip
+tickers.zip
