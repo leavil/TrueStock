@@ -1,0 +1,89 @@
+/* src/public/css/styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    padding: 2rem 1rem;
+    background-color: #343a40;
+    color: white;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-nav {
+    margin-top: 1rem;
+}
+
+.sidebar-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+    color: white;
+    background-color: #007bff;
+}
+
+.content-container {
+    margin-left: 250px;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.card-header {
+    font-weight: 600;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    
+    .content-container {
+        margin-left: 0;
+        padding: 1rem;
+    }
+}
