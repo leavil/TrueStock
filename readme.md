@@ -95,11 +95,5 @@ python app.py
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request.
 
-## Licencia
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-## Contacto
-
-Si tienes alguna pregunta o comentario, por favor contacta a [tu_email@example.com](mailto:tu_email@example.com).
 
